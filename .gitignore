@@ -1,5 +1,6 @@
 *.rpm
 *.zip
-/requiredFiles/wallet/*.*
+/requiredFiles/wallet/*
 /requiredFiles/*.rpm
+.vagrant/
 
