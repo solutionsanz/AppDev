@@ -1,5 +1,11 @@
 *.rpm
 *.zip
-/requiredFiles/*
+cwallet.sso
+keystore.jks
+sqlnet.ora
+tnsnames.ora
+truststore.jks
+ewallet.p12
+ojdbc.properties
 .vagrant/
 

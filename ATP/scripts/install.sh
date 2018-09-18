@@ -62,7 +62,7 @@ echo ' '
 mkdir -p /home/vagrant/cc_wallet
 unzip /vagrant/requiredFiles/wallet/wallet*.zip -d /home/vagrant/cc_wallet
 cp /vagrant/requiredFiles/wallet/wallet*.zip /home/vagrant/cc_wallet
-cp /vagrant/*.py /home/vagrant/
+cp /vagrant/pythonFiles/*.py /home/vagrant/
 
 chown -R vagrant:vagrant /home/vagrant
 
