@@ -60,8 +60,8 @@ echo 'Create directory for the Autonomous Database Credential Wallet'
 echo ' '
 
 mkdir -p /home/vagrant/cc_wallet
-unzip /vagrant/requiredFiles/wallet/wallet*.zip -d /home/vagrant/cc_wallet
-cp /vagrant/requiredFiles/wallet/wallet*.zip /home/vagrant/cc_wallet
+unzip /vagrant/wallet/wallet*.zip -d /home/vagrant/cc_wallet
+cp /vagrant/wallet/wallet*.zip /home/vagrant/cc_wallet
 cp /vagrant/pythonFiles/*.py /home/vagrant/
 
 chown -R vagrant:vagrant /home/vagrant

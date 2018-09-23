@@ -1,5 +1,0 @@
-*.rpm
-*.zip
-/requiredFiles/wallet/*.*
-/requiredFiles/*.rpm
-
