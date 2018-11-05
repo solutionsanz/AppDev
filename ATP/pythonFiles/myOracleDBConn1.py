@@ -1,4 +1,4 @@
-# myOracleDBConn.py
+# myOracleDBConn1.py
 
 from __future__ import print_function
 
@@ -20,4 +20,3 @@ cursor.execute("""
     )
 for tablename in cursor:
     print("Values:", tablename)
-
